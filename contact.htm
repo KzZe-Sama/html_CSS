@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Contact</title>
+	<meta charset="UTF-8">
+	<meta name="description" content="This is My Blogs">
+	<!-- adding icon to site (icon appears on browser tab) -->
+	<link rel="icon" href="logo.png">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	</head>
+	 <style type="text/css">
+	*
+	{
+		margin: 0px auto;
+		 
+
+	}
+</style>
+<!-- background propeties -->
+	<style >
+		body
+		{
+		    background-image: url(background/2.jpeg);background-repeat: no-repeat;
+		    
+		    background-position: right top; 
+		    background-size: 100% 100%; 
+	        background-attachment: fixed;>
+        }
+	</style>
+
+
+<body>
+	<main>
+	<!-- heading properties -->
+     <style>
+	h1
+	  {
+		color: #6699ff;
+      padding: 18px;
+      font-family: "Courier New", Courier, monospace;
+     
+        font-weight: normal;
+        text-decoration: none;
+        font-style: normal;
+        font-variant: normal;
+        text-transform: none;     
+
+
+	  }
+    </style>
+    <!-- header and navigaton bar -->
+    <header >
+		<div class="PHeading">
+			<h1>Contact</h1>
+			
+		</div>
+		<nav>
+			<ul>
+				<li></li>
+				
+			<li><a href="index.htm">Home</a></li>
+			<li><a href="Blog.htm">Blogs</a></li>
+			<li><a href="CV.htm">CV</a></li>
+			<li><a href="Research.htm">Research</a></li>
+			<li><a class="current"href="Contact.htm">Contact</a></li></ul>
+		</nav>
+		
+			
+		
+	</header>
+	<br>
+	<br>
+	<br>
+	<!-- internal css -->
+	<style type="text/css">
+		/*For Every input*/
+		input
+		{
+         padding: 10px;
+         font-size: inherit;
+		}
+		/*for text input*/
+		input[type="text"]
+		{
+			display: block;
+			width: 90% ;
+			border:2px solid-blue;
+		}
+		
+
+	</style>
+
+
+	<!-- some text -->
+	<H3> If you have any Queries,You can drop a comment.</H3>
+	<!-- center alignment -->
+<div align="center">
+	<!-- form divison -->
+	<div class="form">
+		<!-- form -->
+	<form name="SubmitForm" onsubmit="Validateform()">
+		<!-- sometext -->
+		<!-- again divison for main form -->
+		<div align="center"><i>Please fill up the form</i></div>
+		<br>
+		<!-- basic details -->
+		<p id="fname"><h4>First Name: <input type="text"  name="firstname" ></h4></p>
+		<p id="lname"><h4>Last Name: <input type="text"  name="lastname"></h4></p>
+		<p id="email"><h4>Email: <input type="text"  name="email"></h4></p>
+		<p id="gender"><h4>Gender: 
+		    <input type="radio" name="gender" value="male" checked>Male
+		    <input type="radio" name="gender" value="female">Female
+           </h4>
+        </p>
+          <!-- comment -->
+	      <p id="comment"><h4>Comment: <textarea placeholder="Enter Message" name="comment" ></textarea> </h4>
+	     </p>
+	     <br>
+	     <div align="center">
+	     	<!-- submit -->
+	     <p id="submit">
+	     	<input type="submit" name="Comment" value="Comment" id="submitbutton">
+	     </p>
+	     
+
+	     </div>
+
+	</form>
+	<!-- form closed -->
+</div>
+
+</div>
+<!-- my personal details -->
+<div id="cont1">
+		<h4>Email: aayush2058kc@gmail.com</h4>
+		<h4>Address: Gongabu,Gairigaun</h4>
+		<h4>Phone: 9869574885</h4>
+		
+		
+	</div>
+  <!-- Java Script  -->
+  <!--  -->
+  <script >
+  	//defining validationform
+  	 function Validateform()
+  	 {
+  	 	//initailizing variables
+  	 	var fname=document.forms["SubmitForm"]["firstname"].value;
+  	 	var lname=document.forms["SubmitForm"]["lastname"].value;
+  	 	var email=document.forms["SubmitForm"]["email"].value;
+  	 	var comment=document.forms["SubmitForm"]["comment"].value;
+  	 	if(fname=="" && lname=="" && email=="" &&comment=="")
+  	 	{
+  	 		alert("Opps You Forgot to Fill up the Form!")
+  	 	}
+  	 	else if(fname=="")
+  	 	 {
+  	 		alert("First Name is Empty");
+  	 	 }
+  	 	else if (lname=="")
+  	 	 {
+  	 	 	alert("Last Name is Empty");
+
+  	 	 }
+  	 	else if(email=="")
+  	 	 {
+  	 		alert("Enter Your Email!");
+  	 	 } 
+  	 	else if(comment=="")
+  	 	{
+  	 		alert("Comment Field is Blank")
+  	 	} 
+  	 	else
+  	 	{
+  	 		alert("Thanks For the Comment. Have a Good Day!")
+  	 	}
+
+
+  	 }
+  </script>
+
+</main>
+		
+
+<!-- horizontal line -->
+<hr>
+<!-- footer -->
+<footer >
+	<div style="width:80%;height:40px;text-align: center;bottom: 0px;left: 0px;padding-top: 20px ;font-style:italic;color: white;overflow: hidden;" >
+	    <h4>©Copyright 2020 Aayush K.C</h4>
+	</div>
+ </footer>
+
+</body>
+</html>

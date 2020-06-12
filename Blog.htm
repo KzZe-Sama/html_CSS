@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Blogs</title>
+	<meta charset="UTF-8">
+	<meta name="description" content="This is My Blogs">
+	<!-- adding icon to site (icon appears on browser tab) -->
+	<link rel="icon" href="logo.png">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<style type="text/css">
+	*
+	{
+		margin: 0px auto;
+	}
+</style>
+    <!-- body propeties internal css -->
+	<style >
+		body
+		{
+		    background-image: url(background/3.jpeg);background-repeat: no-repeat;
+		    
+		    background-position: right top; 
+		    background-size: 100% 100%; 
+	        background-attachment: fixed;>
+         }
+	</style>
+<body>
+<!-- h1 properties  -->
+    <style >
+       h1
+	   {
+          color: #6699ff;
+          padding: 18px;
+          font-family: "Courier New", Courier, monospace;
+     
+          font-weight: normal;
+          text-decoration: none;
+          font-style: normal;
+          font-variant: normal;
+          text-transform: none;      
+    
+	   }
+    </style>
+	
+
+    <!-- header and navigation -->
+	<header >
+		<div class="PHeading">
+	     <h1>
+		 Blogs
+		 </h1>
+			
+		</div>
+		<nav>
+			<ul>
+				
+				
+			  <li><a href="index.htm">Home</a></li>
+			  <li><a class="current"href="Blog.htm">Blogs</a></li>
+			  <li><a href="CV.htm">CV</a></li>
+			  <li><a href="Research.htm">Research</a></li>
+			  <li><a href="Contact.htm">Contact</a></li>
+		    </ul>
+		</nav>
+		
+			
+		
+	</header>
+	<!-- img propeties  -->
+	<style>
+	img 
+    {
+      width: 100%;
+      height: 100%;
+    }
+    </style>
+    <main>
+    	<!-- divsion for main div -->
+    <div name="top">
+    </div>
+    <!-- sub div -->
+	<div class="Blogdivmain">
+		<!-- sub div sub div -->
+		<div class="slider">
+			<div id="img">
+              <img src="BlogPhotos/tesla.jpg">
+           </div>
+           <!-- Java Script of image slider -->
+			<script>
+				//initializing variables
+              var images = ['BlogPhotos/5G.jpg', 'BlogPhotos/ai.jpg', 'BlogPhotos/i9.jpg', 'BlogPhotos/oneplus.png', 'BlogPhotos/RTX.jpg','BlogPhotos/samsung.jpg','BlogPhotos/tesla.jpg'];
+
+
+              var x = 0;
+
+              var imgs = document.getElementById('img');
+              //setting time interval
+
+              setInterval(slider, 3000);
+
+
+              // defining function
+              function slider() 
+              {
+
+               if (x < images.length) 
+                   {
+                    x = x + 1;
+                   }
+                else 
+                   {
+                   x = 1;
+                   }
+                  imgs.innerHTML = "<img src=" + images[x - 1] + ">"; //particular html tag content (Document Object Model (DOM))
+               }
+             </script>
+             <!-- js closed -->
+	   </div>
+	   <!-- divison for description -->
+	   <div class="description">
+	   	<!-- css properties for para para2 -->
+            <style>
+            	.para
+            	{
+                  font-family: "Trebuchet MS", Helvetica, sans-serif;
+                  font-size: 20px;
+                  letter-spacing: 0.2px;
+                  word-spacing: -0.6px;
+                  color: #e6e600;
+                  font-weight: normal;
+                  text-decoration: none;
+                  font-style: normal;
+                  font-variant: normal;
+                  text-transform: none;
+                  
+                }
+           </style>
+            <style>
+            	.para2
+            	{
+                  font-family: "Trebuchet MS", Helvetica, sans-serif;
+                  font-size: 20px;
+                  letter-spacing: 0.2px;
+                  word-spacing: -0.6px;
+                  color: #e6e600;
+                  font-weight: normal;
+                  text-decoration: none;
+                  font-style: normal;
+                  font-variant: normal;
+                  text-transform: none;
+                  float: center;
+                  text-align: left;
+                 vertical-align: top;
+                  
+                }
+           </style>
+           <!-- Blog head -->
+           <style >
+           	.BlogHead
+                {  
+                	font-size: 30px;
+
+                color: #ff5050;
+              
+              }
+           </style>
+           <!-- divison for desc -->
+           <div style="background-image:url(Background/gradient.jpg);:border:3px; border-style: solid;">
+                 <p class="BlogHead">
+             	   Technology
+                 </p>
+               <br>
+        
+                <p class="para">
+           	       We live currently at 21 Century. Technology is advancing day by day. New Innovations are being developed day by day. We are using Technology Everywhere wether it is on home or anywhere else. Some of the technical devices that we use in our daily life are MobilePhone, Camera , Laptop , Smart TV, Smart Watches etc.
+
+           	   </p>
+           	  <br>
+           	 <p class="para">
+           	       Some of the new and Developing Modern Day Technologies are 5G Network, RTX GPU, AI(Artifical Inteligence), Galaxy        Fold, OnePlus Concept One. The Pictures Can be seen Above.
+             </p>
+               <p class="para">
+            	   We Have Been using technology for various work like Research and Purposes, Medical Field, HouseHold Activites etc.In modern age we cannot live without technology. Technology has brought vast difference in our life. It is said that by 40 years we may even see Flying Cars in the future. And Things such as Time-Machine may also exist on the skyrocketing technology. People are being more and more intrested to bring the new innovation. <span style="font-style: initial";>Elon Musk</span> also had said that one day he will Provide Free Internet Service to the whole world with the help of satellite.
+            	</p>
+	        </div>
+	    </div>
+	    <br>
+	    <center><a href="#subadv"><img id="scroll"src="images/scroll.jpg"></a></center>
+	    <br>
+	    <br>
+	    <br>
+
+	    
+	    
+        <!-- For Advantages -->
+	    <div style="background-image: url(background/gradient.jpg);width: 90%;height: 500px;">
+	    	<div style="background-image: url(background/cartoon.jpg);background-size: auto;float: left;height: 500px;width: 50%;">
+
+	    	</div>
+	    	<div id="subadv">
+	    		<br>
+	    	  <center> 
+	    	  	<p class="BlogHead">
+             	   <u>Advantages of Technology</u>
+                </p>
+            </center>
+                 <div style="border:3px;border-style: dotted;padding: 2px;">
+                    <ol type="1">
+
+                     <p class="para2">1) It Makes our Day-to-Day task easier and more convinent. </li>
+                        
+                     </p>
+                     <br>
+                     <p class="para2">2) Tasks like data entry and analytics, bookkeeping, and contact management can be partially or completely automated, which allows businesses to work more efficiently without the risk of human error. </li>
+                     </p>
+                     <br>
+                     <p class="para2">3) We can store our Data and information in cloud so that we can access it from anywhere. </li>	
+                     </p>
+                     <br>
+                     <p class="para2">4) Internet Connects Many People Through out the world. </li>
+                     </p>
+                     <br>
+                     <p class="para2">5) Businesses best their competitors by being able to respond to data, adapt to changes, and make informed decisions quickly – new technology and analytics give them the tools to do so.  </li>
+                     </p>
+                     <br>
+                     <a href="https://turbofuture.com/misc/Disadvantages-of-Digital-Technology"><p id="ref">->Source!</p></a>
+                     <br>
+                     
+
+                 </div>
+
+                 </ol>
+             
+
+	         </div>
+	     </div>
+        <br>
+        <br>
+        <br>
+        <br>
+        <style >
+        	.para3
+            	{
+                  font-family: "Trebuchet MS", Helvetica, sans-serif;
+                  font-size: 20px;
+                  letter-spacing: 0.2px;
+                  word-spacing: -0.6px;
+                  color: #e6e600;
+                  font-weight: normal;
+                  text-decoration: none;
+                  font-style: normal;
+                  font-variant: normal;
+                  text-transform: none;
+                  float: center;
+                  text-align: left;
+                 vertical-align: top;
+                  
+                }
+        	
+        </style>
+
+
+
+
+
+
+
+	   <!-- For disadvantages -->
+	   	<div class="disadvantages">
+	   		<center><u><p class="BlogHead">Disadvantages of Technology</p></u></center>
+	   		<div style=" width: 90%;border: 15px dotted;padding: 50px;margin: 20px;">
+                     <p class="para2">1) Due to Advancement of Modern Technology People are unaware of side-effects. </li>
+                     
+                     </p>
+                     <br>
+                     <p class="para2">2) Our vital Data and information might get stolen by hackers. </li>
+                     </p>
+                     <br>
+                     <p class="para2">3) There is an increasing tendency for people to socialize and communicate via digital devices and social networking rather than through real life contact. </li>	
+                     </p>
+                     <br>
+                     <p class="para2">4) Digital media such as photographs, audio, and video are easy to edit, making the manipulation of media widespread. </li>
+                     </p>
+                     <br>
+                     <p class="para2">5) There is High Chance of Plagiarism.  </li>
+                     </p>
+                     <br>
+                     <p class="para2">6) Fake IDs and Scamming Happens in Digital Medias.  </li>
+                     </p>
+                     <br>
+                     <p class="para2">7) People will play Video-Games for a long time which is said to be bad for health.  </li>
+                     </p>
+                     <br>
+                     <p class="para2">8) Digital technology means that weapons can be deployed anywhere in the world without any human military presence.   </li>
+                     </p>
+
+                     <br>
+                     <p class="para2">9)Society continues to become more and more depersonalized as digitized machines replace humans.    </li>
+                     </p>
+
+                     <br>
+
+
+
+
+                     <a href="https://turbofuture.com/misc/Disadvantages-of-Digital-Technology"><p id="ref">->Source!</p></a>
+                     <br>
+          	</div>
+	    </div>	
+	    <br>
+	    <br>
+	    <br>
+        <!-- for verdict -->
+	    <div class="verdict">
+	    	<div style=" width: 95%;border: 7px double;padding: 60px 15px;border-color:white ;margin: 20px;">
+	    		<p class="para3">So as a Conclusion We can say that Technology is necessary evil. We cannot live without technology. We need to control the use of technology. We can use the technology in limits.Using digital media and playing video games in schedule. Improving Security can also be  done.If there was no advancement in technology or if it hadn't been introduced we would still be in stone age.
+	    	   </p>
+	    	   <br>
+	    	   <p class="para3">Technology has helped us in many ways in modern era. We should utilize the technology and use it in a proper way if we can adapt and use Technology in proper way we can easily eradicate all the problems that we are facing while using technology.</p>
+
+	    	   
+	        </div>
+	    </div>
+
+	    <br>
+	    <br>
+
+	    <div style="width: 95%;height: 110px";>
+	       <center>
+
+	       <a href="#top">
+		      <img id="imgicotop" src="images/topicon.gif">
+	       </a>
+
+         </center>
+     </div>
+
+</div>
+<!-- img ico properties -->
+<style >
+   #imgicotop
+    {
+      height:100px;
+      width: 8%;
+    }
+</style>
+
+<br>
+<hr>
+</main>
+	<!-- footer -->
+<footer >
+	<div style="width:80%;height:40px;text-align: center;bottom: 0px;left: 0px;padding-top: 20px ;font-style:italic;color: white;overflow: hidden;" >
+	    <h4>©Copyright 2020 Aayush K.C</h4>
+	</div>
+ </footer>
+
+</body>
+</html>

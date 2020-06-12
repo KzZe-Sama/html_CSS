@@ -1,0 +1,585 @@
+ /* * selects all elemetns*/
+ /*margin gives spacing to a content*/
+ /*padding gives spaces around border or content*/
+ /*border gives border to a divison*/
+ /*background properties
+background-color gives color to a certain divison
+height , width specied by px or %
+
+
+
+
+
+ */
+ *
+ {
+margin: 0;
+  padding: 0;
+  font-family: Ariel,verdana;
+}
+/*properites for navigation bar*/
+/*overflow:hidden doesnot overlaps the divisons*/
+nav{
+  overflow: hidden;
+width: 100%;
+height: 80px;
+background-color:#0009;
+line-height: 60px;
+}
+/*properties for ul*/
+ul {
+margin-top: 10px;
+margin-right: 30px;
+  list-style-type: none;
+  font-size: 30px;
+  float: right;
+}
+
+
+ul li {
+  display: inline-block;
+}
+/*adding hover effect to nav bar*/
+nav ul li:hover{
+background-color: #33ccff;
+transition: 0.3s all;
+}
+.current
+{ 
+
+background-color:#cc99ff;
+}
+ul li a{
+font-family: Ariel,sans-serif;
+text-decoration: none;
+color:white;
+padding: 35px;
+}
+
+
+#cont1
+{   text-align: left;
+	font-family:sans-serif;
+	color:#66ccff; 
+}
+h3
+{
+	font-style: italic;
+	text-align: center;
+	color: #99dfff;
+}
+/*text area properties*/
+textarea {
+  width: 80%;
+  height: 150px;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  background-color: #f8f8f8;
+  resize: none;
+}
+/*properties for form*/
+.form
+{
+  font-size: 16px;
+  color: #99dfff;
+  background-color: #666666;
+  width:500px;
+  height: 550px;
+  margin: 25px 25px 25px 25px;
+  float: top;
+  border: 20px ;
+  border-style: groove;
+  padding: 50px 13px;
+  
+}
+/*all the form content properites*/
+#fname
+{
+  padding: 14px 3px;
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+
+}
+#lname
+{
+  padding: 14px 3px;
+
+}
+#email
+{
+  padding: 14px 3px;
+}
+#gender
+{
+  padding: 14px 3px;
+}
+#comment
+{
+  padding: 20px 3px;
+}
+/*form submit button peoperties*/
+.submit
+{
+  padding: 14px 3px;
+  width: 30%;
+  height: 90px;
+
+}
+.PHeading
+{
+  
+  width: auto;
+  height: auto;
+  background-size: cover;
+  float: left;
+  position: absolute;
+
+}
+
+/*profile  of cv properties*/
+#profile
+{
+  
+  width: 17%;
+  height: 700px;
+  float: left;
+  padding: 14px 3px;
+  border: 9px;
+  margin: 9px;
+  border-style: double;
+  border-color: white;
+
+}
+/*profile pic of cv properties */
+#imgprofile{
+  float: center;
+  align-content: center;
+  
+  border-radius:  50%;
+  width: 80%;
+  height: 240px;
+
+}
+#StyleName
+{ 
+   font-family: Futura, "Trebuchet MS", Arial,sans-serif;
+    color:#33ccff;
+    font-style:bold;
+    font-size:24px;
+}
+/*CV background body properties*/
+.CV
+{
+  background-image:url("../Background/CVg.gif"); 
+
+      background-repeat: no-repeat;
+        
+        background-position: right top; 
+        background-size: 100% 100%; 
+          background-attachment: fixed;
+        
+
+}
+/*icon properties*/
+#icon
+{
+  height:25px ;
+  width: 8%;
+
+}
+/*cv properties*/
+#socialmedia
+{
+  color: #cc99ff;
+  font-size: 14px;
+  font-weight: bold;
+  
+  letter-spacing: 1.1px;
+}
+#Personal
+{
+  float: none;
+  width: 97.6%;
+  height: 700px;
+  padding: 25px 3px;
+  border: 9px;
+  margin: 9px;
+  border-style: double;
+  border-color: white;
+}
+#pinfo
+{
+  font-weight: bold;
+  float: left;
+  color: #33ccff;
+  padding: 5px 3px;
+  width: 35%;
+  height: 30px;
+
+}
+#skills
+{
+height:100px;
+float: left;
+margin: auto;
+  width: 70%;
+  border: 3px ;
+  border-style: dashed;
+  border-color: white;
+  padding: 5px;
+
+}
+/*defining properties for skills paragraph*/
+#paraskills
+{
+  color: #33ccff;
+}
+/*defining properties for skills qualification*/
+#qualification
+{
+  height:350px;
+  float: left;
+  margin: auto;
+  width: 70%;
+  border: 3px ;
+  border-style: dashed;
+  border-color: white;
+  padding: 5px;
+
+}
+th, td {
+  padding: 8px;
+  text-align: left;
+}
+.tablecolor
+{
+  color:#33ccff;
+}
+
+#certification
+{
+
+}
+/*defining properties for blogs homepage*/
+.blogshover
+{
+background-image:url(../Background/3.jpeg); ;
+margin-left: 20px;
+margin-bottom: 50px;
+margin-right: 20px;
+margin-top: 50px ;
+width: 21%;
+height: 600px;
+float: left;
+display: flex;
+justify-content: center;
+
+}
+/*defining properties for research homepage*/
+.researchhover
+{
+background-image:url(../Background/5.jpeg); ;
+margin-left: 20px;
+background-repeat: no-repeat;
+margin-bottom: 50px;
+background-size: 100% 600px;
+margin-right: 20px;
+margin-top: 50px ;
+width: 21%;
+height: 600px;
+float: left;
+display: flex;
+justify-content: center;
+}
+/*defining properties for aboutme homepage*/
+.AboutMehover
+{
+background-image:url(../images/about.jpg); ;
+margin-left: 20px;
+background-repeat: no-repeat;
+margin-bottom: 50px;
+background-size: 100% 600px;
+margin-right: 20px;
+margin-top: 50px ;
+width: 21%;
+height: 600px;
+float: left;
+display: flex;
+justify-content: center;
+}
+  
+/*hover effect*/
+.blogshover:hover
+{
+transform: scale(1.1);
+
+
+
+}
+/*hover effect*/
+.researchhover:hover
+{
+
+transform: scale(1.1);
+}
+
+
+/*hover effect*/
+.AboutMehover:hover
+{
+
+transform: scale(1.1);
+
+}
+/* Internal Hyperlink*/
+#AboutMe
+{
+  
+  border:3px;
+  border-style: dotted solid ;
+  border-color:#99dfff;
+  width: 80%;
+  height: 700px;
+  float: bottom;
+
+}
+#DataAM
+{
+  font-family: "Comic Sans MS", cursive, sans-serif;
+font-size: 25px;
+letter-spacing: 0.2px;
+word-spacing: -0.6px;
+color: #e6f7ff;
+font-weight: normal;
+text-decoration: none;
+font-style: normal;
+font-variant: normal;
+text-transform: none;
+}
+.Blogdivmain
+{
+  margin: auto;
+  
+  height: 3000px;
+  width: 95%;
+  
+  padding:20px;
+  
+}
+/*image slider properties*/
+ .slider {
+      width: 50%;
+      height: 500px;
+      margin: 20px auto;
+      box-sizing: border-box;
+      overflow: hidden;
+      box-shadow: 5px 5px 10px red;
+    }
+#subadv
+{
+  width:50%;
+  height: 500px;
+  float: right;
+  color:#e6e600;
+
+
+ 
+
+}
+#scroll
+{
+  height: 85px;
+  width:12%;
+
+}
+/*for disadvantages*/
+.disadvantages
+{
+  padding: 19px 10px;
+  background-image:url(../Background/gradient2.jpg);
+  width: 90%;
+  height: 675px;
+
+}
+#ref
+{
+  color:red;
+  font-size:20px; 
+}
+.verdict
+{
+  padding: 19px 10px;
+  background-image:url(../Background/verdict.png);
+  
+  width: 90%;
+  height: 300px;
+
+}
+
+/*submit button for form*/
+#submitbutton
+
+  {
+      padding: 3px 3px;
+      width: 300px;
+      height: 40px;
+      border:none;
+      background: steelblue;
+      color: white;
+    }
+/*hover effect*/
+#submitbutton:hover
+{
+  background-color:#6699ff;
+  transition: 0.5s all;
+}
+
+.mainbody
+{
+   
+   width: 95%;
+   height: 3900px;
+   padding: 33px 3px 9px 3px;
+}
+#Sites
+{
+  width: 99%;
+  height: 1000px;
+  
+  float: left;
+
+
+}
+#Compare1
+{
+    background-image: url(../ResearchPhotos/Background3.jpg);
+    background-size: contain;
+    background-size: cover;
+  float: none;
+  overflow: auto;
+  width: 98%;
+  height: 750px;
+  border:6px;
+  border-color: grey;
+  border-style: inset outset;
+
+
+
+}
+#C1D1
+{
+  float: left;
+  height: auto;
+  width: auto;
+
+
+}
+/*button of research with properties*/
+#comparebutton
+
+  {  
+      margin: 50px 8px 22px ;
+      
+      width: 344px;
+      height: 45px;
+      border:none;
+      background: steelblue;
+      color: white;
+    }
+/*hover effect*/
+#comparebutton:hover
+{
+  background-color:#cc00ff;
+  transition: 0.5s all;
+}
+/*button for form*/
+#comparebuttonform
+
+  {  
+       
+      
+      width: 344px;
+      height: 45px;
+      border:none;
+      background: steelblue;
+      color: white;
+      
+
+
+   }
+/*hover effect*/
+#comparebuttonform:hover
+{
+  background-color:#cc00ff;
+  transition: 0.5s all;
+ 
+}
+#buttonfont
+{
+font-size: 18px;
+}
+#C1D2
+{
+
+}
+#Compare2
+{
+    background-image: url(../ResearchPhotos/Background3.jpg);
+    background-size: contain;
+    background-size: cover;
+  float: none;
+  overflow: auto;
+  width: 98%;
+  height: 750px;
+  border:6px;
+  border-color: grey;
+  border-style: inset outset;
+
+
+
+
+
+
+
+}
+#Compare3
+{
+  background-image: url(../ResearchPhotos/Background3.jpg);
+  background-size: contain;
+    background-size: cover;
+  float: none;
+
+  overflow: auto;
+  width: 98%;
+  height: 750px;
+  border:6px;
+  border-color: grey;
+  border-style: inset outset;
+
+
+
+
+
+
+}
+#AndSay
+{
+  padding: 14px 2px;
+  background-image: url(../ResearchPhotos/Background2.jpg);
+  background-size: contain;
+    background-size: cover;
+  float: none;
+  overflow: auto;
+  width: 98%;
+  height:350px;
+  border:6px;
+  border-color: grey;
+  border-style: inset outset;
+
+
+
+
+
+
+}
